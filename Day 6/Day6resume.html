@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Table Resume
+    </title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .t-head {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="font-weight: bold;">My Resume</h1>
+    <img src="./../Images/1717922599756.jpg" style="border-radius: 50%; height: 100px; width: 100px;" alt="">
+    <h2 style="font-weight: bold;">Personal Information</h2>
+    <table>
+        <thead class="t-head">
+            <th>Name</th>
+            <th>DOB</th>
+            <th>College Name</th>
+        <tbody>
+            <tr>
+                <td>Nehal Shaikh</td>
+                <td>20/11/2003</td>
+                <td>SCOE</td>
+            </tr>
+        </tbody>
+        </thead>
+    </table>
+    <h2 style="font-weight: bold;">Educations</h2>
+    <table>
+        <thead class="t-head">
+            <th>Sr No</th>
+            <th>Institute</th>
+            <th>Percentage(%)</th>
+            <th>YOP</th>
+            <th>Qualification</th>
+            <th>Completed/Pursuing</th>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>SCOE</td>
+                <td>7.19</td>
+                <td>2023</td>
+                <td>B.E in Computer Engineering</td>
+                <td>Pursuing 4th Year</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kalsekar Polytechnic</td>
+                <td>72%</td>
+                <td>2022</td>
+                <td>Diploma in Computer Engineering</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Royal Public School</td>
+                <td>66%</td>
+                <td>2019</td>
+                <td>SSC</td>
+                <td>Completed</td>
+            </tr>
+        </tbody>
+        </thead>
+    </table>
+
+    <form>
+        <fieldset>
+            <legend><h1>Contact Me</h1></legend>
+            <label>Topic :</label><br><br>
+            <input required type="text" placeholder="Why do you want to contact?"><br><br>
+            <label>Message :</label><br><br>
+            <textarea required placeholder="Type your message"></textarea><br><br>
+            <label>Phone No. :</label><br><br>
+            <input required type="number" placeholder="Enter Mobile No."><br><br>
+            <label for="gender">Gender :</label><br><br>
+            <select required id="gender">
+                <option>Select your gender</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Rather not say</option>
+            </select><br><br>
+            <input type="reset" value="Reset"><br><br>
+            <input type="submit" value="Submit" onclick="alert('We have recieved your message, We will respond to you shortly!')">
+        </fieldset>
+    </form><br>
+    <h3>Office Location :</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.089985596134!2d73.0207570746637!3d19.015756053862145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c3c4978c8ac9%3A0xd8911aa284bd395e!2sKing%20Consultant%20Real%20Estate!5e0!3m2!1sen!2snl!4v1718446341827!5m2!1sen!2snl" width="400" height="300" style="border: 8px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</body>
+
+</html>
