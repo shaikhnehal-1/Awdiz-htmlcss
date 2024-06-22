@@ -1,0 +1,31 @@
+p {
+    color: greenyellow;
+}
+
+p.border {
+    border: 7px solid red;
+}
+
+p.border-green {
+    border: 7px dotted green;
+}
+
+.backimage {
+    background-image: url("./../Images/Add\ a\ heading\ \(3\).png");
+    background-repeat: no-repeat;
+
+}
+
+div.radius {
+    border: 2px solid red;
+    border-radius: 40px
+}
+
+div.radius1 {
+    height: 50px;
+    width: 50px;
+
+    border: 2px solid black;
+    border-radius: 50%;
+
+}
