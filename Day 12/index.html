@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 12</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        #navbar {
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            background-color: #131921;
+            /* flex-direction: row-reverse;
+            flex-direction: column;
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            justify-content: space-evenly;
+            justify-content: space-around; */
+        }
+
+        #left-div {
+            display: flex;
+            width: 22%;
+        }
+
+        #centre-div {
+            width: 50%;
+        }
+
+        #right-div {
+            width: 26%;
+        }
+
+        #logoDiv {
+            justify-content: center;
+            width: 50%;
+        }
+
+        #addressbar {
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="left-div" style="display: flex;">
+            <div id="logoDiv">
+                <img style="height: 75%; width: 80%; margin: auto; display: block; align-items: center;"
+                    src="./../Images/Amazon-India-Logo-PNG-White-removebg-preview.png" alt="Amazon">
+            </div>
+            <div id="addressbar" style="justify-content: center; display: flex;">
+                <div>Icon</div>
+                    <div>
+                        <p>Delivering to Navi Mumbai 400706</p>
+                        <h5>Update location</h5>
+                    </div>
+                </div>
+            </div>
+        <div id="centre-div">Search</div>
+        <div id="right-div">Profile</div>
+    </div>
+</body>
+
+</html>

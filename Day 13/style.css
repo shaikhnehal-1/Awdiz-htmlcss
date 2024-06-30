@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #252f25;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#leftDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 22%;
+    height: 80%;
+}
+
+#logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44%;
+}
+
+#logoDiv:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#addressDiv {
+    width: 54%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addressDiv:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#addressP {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(205, 204, 204);
+}
+
+#addressh5 {
+    font-size: 18px;
+    letter-spacing: 6px;
+}
+
+#centerDiv {
+    width: 50%;
+    display: flex;
+    height: 66%;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#centerDiv:focus-within {
+    border: 3px solid #faaa42;
+}
+
+#centerSection {
+    height: 100%;
+    width: 8%;
+    border-radius: 4px 0 0 4px;
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(190, 190, 190);
+}
+
+#centerSection:hover {
+    background-color: #d5d5d5;
+}
+
+#centerSection p, span {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+#centerSearch {
+    height: 100%;
+    width: 84%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#centerSearch input {
+    height: 24px;
+    width: 96%;
+    margin: auto;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+#centerIcon {
+    height: 100%;
+    width: 8%;
+    background-color: #febd69;
+    border-radius: 0 4px 4px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#centerIcon:hover {
+    background-color: #faaa42;
+}
+
+#centerIcon span {
+    font-size: 30px;
+    color: black;
+}
+
+#rightDiv {
+    height: 80%;
+    width: 26%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#rightLang {
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rightLang:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#rightLang > p {
+    margin-left: 6px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#rightLang > span {
+    color: rgb(206, 206, 206);
+}
+
+#rightAccount {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+#rightAccount:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#rightAccount p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#rightAccount span {
+    margin-top: -6px;
+}
+
+#rightOrders {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#rightOrders:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#rightOrders p {
+    font-size: 12px;
+}
+
+#rightCart {
+    width: 22%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rightCart:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+#rightCart span {
+    color: white;
+}
+
+#rightCart span:nth-child(1) {
+    font-size: 36px;
+}
+
+#rightCart span:last-child {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 16px;
+}
