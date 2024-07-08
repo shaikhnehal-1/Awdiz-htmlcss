@@ -218,3 +218,174 @@
     font-weight: 700;
     margin-top: 16px;
 }
+
+/* .second-navbar {
+    background-color: #232F3E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    height: 45px;
+    font-weight: 520;
+}
+
+#Div1, #Div2, #Div9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#AllMenu {
+    color: white;
+}
+
+#Div1:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div2:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div3:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div4:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div5:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div6:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div7:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div8:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div9:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div10:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div11:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div12:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div13:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div14:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div15:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div16:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+}
+
+#Div17:hover {
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 100%;
+} */
+
+#body {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#filters {
+    width: 14%;
+    border: 2px solid black;
+    height: 1000px;
+}
+
+#products {
+    width: 82%;
+    border: 2px solid black;
+}
+
+#productsParent {
+    display: flex;
+    justify-content: space-between;
+}
+
+#productCard {
+    border: 1px solid brown;
+    height: 500px;
+    width: 19%;
+}
