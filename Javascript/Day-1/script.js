@@ -90,4 +90,4 @@ console.log(number3);
     }
 }
 
-console.log(number5)
+console.log(number5);
