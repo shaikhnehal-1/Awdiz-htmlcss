@@ -25,16 +25,20 @@ numbers(5, 29);
 
 // Assignment
 
-function drivingLicenceEligibilityChecker(age){
-    console.log("Age = ", age);
+function drivingLicenceEligibilityChecker(){
+    const age = parseInt(document.getElementById('age').value);
+    const messageElement = document.getElementById('message');
     if (age > 18 && age <= 60){
-        console.log("You are eligible for DL.");
+        messageElement.textContent = "You are eligible for DL.";
+        messageElement.style.color = "red";
     } else if (age < 18 || age >= 60){
-        console.log("You are not eligible for DL/LL");
+        messageElement.textContent = "You are not eligible for DL/LL.";
+        messageElement.style.color = "red";
     } else if (age == 18){
-        console.log("You are eligible for LL.");
+        messageElement.textContent = "You are eligible for LL.";
+        messageElement.style.color = "red";
     } else {
-        console.log("Invalid Age")
+        messageElement.textContent = "Invalid Age";
+        messageElement.style.color = "red";
     }
 }
-drivingLicenceEligibilityChecker(18);
